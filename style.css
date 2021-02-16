@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background: blueviolet;
+    display: grid;
+    place-items: center;
+}
+.child{
+    width: 300px;
+    height: 430px;
+    /* background: red; */
+    box-shadow: 0px 1px 10px 1px;
+    text-align: center;
+
+}
+.child .first{
+    height: 30%;
+    background: blueviolet;
+}
+
+/* .first .img-container{
+   background: white;
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   padding: 5px;
+   transform: translate(100px, 50px);
+} */
+.first .img-container img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transform: translate(1px, 85px);
+    /* background: white; */
+    /* box-shadow: 10px 5px 5px 10px; */
+     border: 3px solid #fff;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+    
+}
+.child .second{
+    height: 70%;
+    background: #fff;
+    padding-top: 71px;
+}
+.second .content h3{
+    font-weight: bolder;
+
+}
+.second .content hr{
+    
+    width: 50vw;
+} 
+.second .content h4{
+    font-weight: 10px;
+    color: blueviolet;
+    
+}
+.second .content p{
+    font-size: 12px;
+    font-weight: lighter;
+    color: gray;
+    padding-top: 12px;
+    padding-bottom: 25px;
+    margin: 12px 0px;
+}
+.second .btn a {
+    background: blueviolet;
+    padding: 12px 20px;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-in;
+}
+.second .btn a:hover{
+    color:blueviolet;
+    background: transparent;
+    border:2px solid blueviolet;
+}
+
+.second .logo {
+    padding-top: 22px;
+    color: blueviolet;
+    cursor: pointer;
+    transition: all .3s ease-in;   
+}
+
+.logo .instagram i{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.logo span:hover{
+    color: rgb(81, 16, 141);
+}
+.logo span a{
+    text-decoration: none;
+}
+@media(max-width:320px 568px)
+{   .child{
+    width: 160px;
+    height: 284px;
+}
+};
